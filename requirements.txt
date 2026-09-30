@@ -1,0 +1,16 @@
+# Python Standard Libraries (Built-in with Python 3.10+)
+# No external pip packages required
+
+# Dependencies used:
+# - tkinter
+# - threading
+# - subprocess
+# - shutil
+# - os
+# - sys
+# - ctypes
+
+# System Requirements:
+# - Windows 10 / Windows 11 / Windows Server
+# - Windows PowerShell 5.1+
+# - Administrator Privileges
