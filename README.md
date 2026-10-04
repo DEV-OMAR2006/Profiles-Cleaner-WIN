@@ -89,6 +89,42 @@ Technical Specifications
 
 - Filesystem Operations: `os.walk, shutil.disk_usage, subprocess`
 
+## Features & Demonstrations
+
+### 1. Profile Discovery & Scan
+Scans the system using Windows CIM instances to identify user profiles and calculates folder footprints asynchronously without freezing the interface.
+
+![Scan Demo](demo/Scan.gif)
+
+---
+
+### 2. Capacity & Threshold Filtering
+Filters detected user profiles based on size limits (e.g., `>= 0.5 GB` or `>= 1.0 GB`) to focus on high-impact accounts.
+
+![Min Size Filter Demo](demo/MinSize.gif)
+
+---
+
+### 3. Target Quota Cleanup
+Purges profiles sorted descending by size until the designated free storage target is recovered.
+
+![Target Quota Demo](demo/Target.gif)
+
+---
+
+### 4. Non-Blocking Graceful Stop
+Uses thread signaling (`threading.Event`) to safely halt active operations at any point without data or registry corruption.
+
+![Stop Demo](demo/Stop.gif)
+
+---
+
+### 5. Selective Profile Removal
+Allows administrators to manually highlight specific accounts from the table and confirm targeted deletion.
+
+![Selected Delete Demo](demo/Selected.gif)
+
+
 Author
 Omar Alzamel
 
