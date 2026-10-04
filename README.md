@@ -1,3 +1,4 @@
+[![Download Demo](https://img.shields.io/badge/Download-v2.0_Evaluation_EXE-blue?style=for-the-badge&logo=windows)](https://github.com/YourUsername/Profiles-Cleaner-WIN/releases/latest)
 # Windows Profile Cleaner
 
 A lightweight desktop utility designed to manage and clean cached user profiles on shared computers, freeing drive space without damaging the Windows registry.
